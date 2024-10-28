@@ -28,7 +28,7 @@ button {
     height: 50px;
     text-align: center;
     font-size: 18px;
-    background-color: navy;
+    background-color: #011735;
     border: 2px solid white;
 color: white;
     border-radius: 10px;
@@ -43,7 +43,7 @@ button:hover {
     height: 280px;
     width: 450px;
     border-radius: 12px;
-    background-image: url(background\ image.PNG);
+    background-image: url(background\ image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform 1s;
@@ -60,7 +60,7 @@ button:hover {
     align-items: center;
 }
 .card-body:hover {
-    background-color: blue; 
+    background-color: #042651; 
     transform: rotateY(180deg);
 }
 .card {
@@ -132,7 +132,7 @@ color: white;
 }
 .back-card {
     border-radius: 12px;
-    background-color: rgb(2, 2, 156);
+    background-color: #00367c;
     transform: rotateY(180deg);
 }
 .back-card #call {
@@ -157,4 +157,14 @@ width: 90%;
     font-size: 16px;
     font-weight: 100;
     margin: 20px 10px 10px 10px;
+}
+#card-section button {
+    border: 2px solid navy !important;
+    background: none !important;
+    color: navy !important;
+}
+#card-section button:hover {
+    background-color: #011735 !important;
+    border: 2px solid white !important;
+color: white !important;
 }
